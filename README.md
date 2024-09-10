@@ -69,6 +69,53 @@ python ablation_study.py --adjust agent_architecture
 ## Our Vision 🌟🌍
 By tackling the challenge of pun translation, we're proposing a novel chain-of-thought prompting method. This approach aims to inspire more creative writing tasks and handle complex cross-linguistic literary projects. Our dream is to make AI not just smart, but witty and creative too! 🧠✨🤹‍♂️
 
+## References
+
+```
+https://github.com/liuhuanyong/ChineseHumorSentiment.git
+```
+
+```
+@inproceedings{chen-etal-2024-u,
+    title = "Are {U} a Joke Master? Pun Generation via Multi-Stage Curriculum Learning towards a Humor {LLM}",
+    author = "Chen, Yang  and
+      Yang, Chong  and
+      Hu, Tu  and
+      Chen, Xinhao  and
+      Lan, Man  and
+      Cai, Li  and
+      Zhuang, Xinlin  and
+      Lin, Xuan  and
+      Lu, Xin  and
+      Zhou, Aimin",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand and virtual meeting",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.51",
+    pages = "878--890",
+    abstract = "Although large language models (LLMs) acquire extensive world knowledge and some reasoning abilities, their proficiency in generating humorous sentences remains a challenge. Previous research has demonstrated that the humor generation capabilities of ChatGPT are confined to producing merely 25 unique jokes. In this work, we concentrate on endowing LLMs with the ability of generating puns, a particular category of humor by preference learning method. We propose a multi-stage curriculum preference learning framework to optimize both pun structure preferences and humor preferences. Specifically, we improve the Direct Preference Optimization (DPO) algorithm to address the challenge of multi-objective alignment problem. Besides, to facilitate further advancement in this field, we collect a Chinese Pun (ChinesePun) dataset, containing 2.1k puns and corresponding annotations. Experimental results on both Chinese and English benchmark datasets demonstrate that our method significantly outperforms all the baseline models.",
+}
+```
+
+```
+@inproceedings{simpson2019predicting,
+   author    = {Edwin Simpson and Do Dinh, Erik-L{\^{a}}n and
+                Tristan Miller and Iryna Gurevych},
+   title     = {Predicting Humorousness and Metaphor Novelty with
+                {Gaussian} Process Preference Learning},
+   booktitle = {Proceedings of the 57th Annual Meeting of the
+                Association for Computational Linguistics (ACL 2019)},
+   month     = jul,
+   year      = {2019},
+   pages     = {5716--5728},
+}
+```
+
 ## Contact Us 📬💬
 Got questions, feedback, or just want to share a good pun? Reach out to us at:
 
